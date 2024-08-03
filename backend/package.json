@@ -1,0 +1,28 @@
+{
+  "name": "fomo-backend",
+  "version": "1.0.0",
+  "description": "fomo backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/index.js",
+    "build": "tsc"
+  },
+  "author": "pavan",
+  "license": "ISC",
+  "dependencies": {
+    "@overnightjs/core": "^1.7.6",
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "node-cron": "^3.0.3",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.14",
+    "@types/node-cron": "^3.0.11",
+    "@types/socket.io": "^3.0.1",
+    "typescript": "^5.5.4"
+  }
+}

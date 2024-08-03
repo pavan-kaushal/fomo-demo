@@ -1,0 +1,23 @@
+.body-container {
+    padding: 1rem 2rem;
+    margin: 1rem 2rem;
+    border: 1px solid #c8c8c8;
+    border-radius: 10px;
+}
+.header-bitcoin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1rem 0.5rem 1rem;
+}
+.header-text {
+    font-size: medium;
+    font-weight: 700;
+}
+.dropdown-container {
+    width: 200px;
+}
+.seperator {
+    flex: 1;
+}

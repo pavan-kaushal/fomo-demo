@@ -1,0 +1,11 @@
+.full-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+    background-color: #021526;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
